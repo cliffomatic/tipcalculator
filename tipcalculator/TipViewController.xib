@@ -22,12 +22,12 @@
                     <rect key="frame" x="0.0" y="72" width="320" height="46"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <subviews>
-                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" selected="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Enter Bill Amount" textAlignment="center" clearsOnBeginEditing="YES" adjustsFontSizeToFit="NO" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="XG5-AE-b7s">
+                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" highlighted="YES" selected="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Enter Bill Amount" textAlignment="center" clearsOnBeginEditing="YES" adjustsFontSizeToFit="NO" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="XG5-AE-b7s">
                             <rect key="frame" x="59" y="8" width="203" height="30"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                             <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="18"/>
-                            <textInputTraits key="textInputTraits" keyboardType="decimalPad" returnKeyType="done"/>
+                            <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
                         </textField>
                     </subviews>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -58,7 +58,7 @@
                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="$0.00" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OnB-ro-UBn">
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="$" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OnB-ro-UBn">
                     <rect key="frame" x="118" y="188" width="182" height="48"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <fontDescription key="fontDescription" name="HelveticaNeue-UltraLight" family="Helvetica Neue" pointSize="40"/>
@@ -66,7 +66,7 @@
                     <nil key="highlightedColor"/>
                 </label>
                 <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="lwD-lj-E1l">
-                    <rect key="frame" x="20" y="264" width="280" height="29"/>
+                    <rect key="frame" x="20" y="249" width="280" height="29"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <segments>
                         <segment title="10%"/>
